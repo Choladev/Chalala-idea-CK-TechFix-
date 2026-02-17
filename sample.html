@@ -9,6 +9,17 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
+        html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+}
         * {
             margin: 0;
             padding: 0;
@@ -59,7 +70,7 @@
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
             z-index: 1000;
-            padding: 1rem 5%;
+            padding: 1rem 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -168,7 +179,7 @@
 
         /* Hero Section */
         .hero {
-            padding: 8rem 5% 5rem;
+            padding: 80px 20px 40px; 
             background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-blue) 100%);
             color: white;
             position: relative;
@@ -361,7 +372,7 @@
 
         /* Sections General */
         section {
-            padding: 5rem 5%;
+            padding: 60px 20px;
         }
 
         .section-title {
